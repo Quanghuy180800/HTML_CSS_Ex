@@ -2,8 +2,14 @@
     padding: 0 150px;
     height: 262px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 115px 155px 0 155px;
+  }
+
+  @media only screen and (max-width: 1620px) {
+    .brandlogo {
+      padding: 0 100px;
+      margin: 115px 105px 0 105px;
+    }
   }

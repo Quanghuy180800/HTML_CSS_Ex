@@ -1,7 +1,6 @@
 .header {
     padding: 0 150px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 130px;
@@ -20,7 +19,6 @@
   .header-menus ul {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
   }
@@ -38,7 +36,6 @@
     width: 385px;
     background-color: #ffffff;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     border-radius: 37px;
@@ -63,7 +60,6 @@
   
   .header-button {
     display: flex;
-    flex-direction: row;
     gap: 20px;
     margin-left: 20px;
   }
@@ -94,4 +90,33 @@
     color: #ffffff;
     cursor: pointer;
     box-shadow: 0px 19px 29px rgba(62, 53, 120, 0.14);
+  }
+
+  @media only screen and (max-width: 1620px) {
+    .header {
+      width: 100%;
+      padding: 0 100px;
+    }
+    .header-menus {
+      margin: 20px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1450px) {
+  
+    .header-searchbox {
+      height: 50px;
+      width: 300px;
+    }
+
+    .header-button {
+      gap: 10px;
+    }
+
+    .header-button .login, .header-button .signup {
+      width: 100px;
+      height: 50px;
+    }
+    
   }
