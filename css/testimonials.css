@@ -180,3 +180,25 @@
     line-height: 24px;
     color: #ffffff;
   }
+
+  @media only screen and (max-width: 1620px) {
+    .testimonials {
+      padding: 0 100px;
+    }
+
+    .testimonials-shape {
+      left: 186px;
+    }
+    
+    .testimonials-dots-big {
+      left: 148px;
+    }
+    
+    .testimonials-quote-marks {
+      left: 186px;
+    }
+  }
+
+  @media only screen and (max-width: 1450px){
+
+  }

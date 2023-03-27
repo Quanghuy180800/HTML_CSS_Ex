@@ -56,6 +56,12 @@ body {
   background-color: #5f4bdb;
 }
 
+@media only screen and (max-width: 1620px)  {
+  .container {
+    width: 100%;
+  }
+}
+
 
 
 

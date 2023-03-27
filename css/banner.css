@@ -3,7 +3,6 @@
     padding: 0 150px;
     height: 813px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     position: relative;
   }
@@ -143,7 +142,6 @@
   
   .card-profile {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     position: absolute;
@@ -195,4 +193,64 @@
     width: 110px;
     display: flex;
     justify-content: space-around;
+  }
+
+  @media only screen and (max-width: 1620px) {
+    .mainbanner {
+      width: 100%;
+      padding: 0 100px;
+    }
+    .big-dots {
+      right: 800px;
+    }
+    .card-profile {
+      right: 450px;
+    }
+  }
+
+  @media only screen and (max-width: 1450px) {
+    .mainbanner {
+      width: 100%;
+      padding: 0 70px;
+    }
+    .card-profile {
+      width: 380px;
+      height: 130px;
+    }
+    .mainbanner-left h2 {
+      width: 610px;
+      font-size: 48px;
+    }
+
+    .mainbanner-right .circle-shape {
+    
+      top: 174px;
+      right: 169px;
+      width: 475px;
+      height: 475px;
+   
+    }
+    .big-dot-shape {
+      right: 280px;
+    }
+    .bars {
+      right: 87px;
+    }
+
+    .bars img{
+
+      width: 150px;
+      height: 150px;
+    }
+    
+    .emoji {
+      right: 322px;
+      z-index: 1;
+
+    }
+    
+    .big-dots {
+      right: 600px;
+    }
+    
   }
