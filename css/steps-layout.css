@@ -1,0 +1,154 @@
+.steps-layout {
+    padding: 0 150px;
+    position: relative;
+    height: 851px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  
+  .steps-left-side {
+    width: 960px;
+  }
+  
+  .steps-left-side > p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #5f4bdb;
+  }
+  
+  .steps-left-side > h3 {
+    width: 669px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #363848;
+    margin-top: 15px;
+  }
+  .number-box {
+    width: 84px;
+    height: 84px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23px;
+    margin-right: 29px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin-top: 62px;
+  }
+  
+  .steps-left-side h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #363848;
+    width: 434px;
+  }
+  .step-one,
+  .step-three {
+    width: 650px;
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 7px 22px rgba(143, 134, 196, 0.07);
+    background: #ffffff;
+    border-radius: 20px;
+  }
+
+  .step-one:hover, .step-two:hover, .step-three:hover { 
+    box-shadow: 0px 19px 29px rgba(62, 53, 120, 0.14);
+  }
+  
+  .step-two {
+    width: 650px;
+    height: 176px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 7px 22px rgba(143, 134, 196, 0.07);
+  }
+  
+  .step-one .number-box {
+    background-color: #f6ebff;
+    color: #8e22e2;
+  }
+  
+  .step-two .number-box {
+    background-color: #e7e9ff;
+    color: #2b3dc7;
+    margin-top: 17px;
+  }
+  .step-three .number-box {
+    background-color: #e9ffef;
+    color: #3dcd65;
+  }
+  
+  .step-two p {
+    color: #909090;
+    width: 478px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #909091;
+  }
+  
+  .step-two-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+    gap: 14px;
+  }
+  
+  .image-shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 131px;
+    right: 205px;
+    width: 753px;
+    height: 660px;
+    background: #c4c4c4;
+    border-radius: 40px;
+  }
+  
+  .image-shape img {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .chart img {
+    position: absolute;
+    top: 227px;
+    right: 110px;
+  }
+  
+  .wave img {
+    position: absolute;
+    top: 653px;
+    right: 915px;
+  }
+  
+  .dots-small {
+    position: absolute;
+    top: 74px;
+    right: 755px;
+  }

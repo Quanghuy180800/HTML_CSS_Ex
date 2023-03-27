@@ -1,0 +1,97 @@
+.header {
+    padding: 0 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+    background-color: #f8f9fd;
+  }
+  
+  .header-logo {
+    width: 144px;
+  }
+  
+  .header-menus {
+    width: 485px;
+    margin: 129px;
+  }
+  
+  .header-menus ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .header-menus ul li a {
+    text-decoration: none;
+    color: #363848;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400px;
+  }
+  
+  .header-searchbox {
+    height: 60px;
+    width: 385px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 37px;
+  }
+  
+  .header-searchbox .search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    width: 330px;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 30px;
+  }
+  
+  .header-searchbox i {
+    font-size: 20px;
+    padding: 20px;
+    color: #646464;
+  }
+  
+  .header-button {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+  }
+  
+  .header-button .login {
+    width: 132px;
+    height: 60px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    border: none;
+    background-color: #f0eeff;
+    border-radius: 37px;
+    cursor: pointer;
+  }
+  
+  .header-button .signup {
+    width: 177px;
+    height: 60px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    border: none;
+    background-color: #5f4bdb;
+    border-radius: 37px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 19px 29px rgba(62, 53, 120, 0.14);
+  }

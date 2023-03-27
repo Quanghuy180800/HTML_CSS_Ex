@@ -1,0 +1,118 @@
+.pricingplan {
+    background-color: #f8f9fd;
+    padding: 0 150px;
+    height: 901px;
+    margin-top: 150px;
+    padding: 60px 0;
+  
+  }
+  
+  .pricingplan-title h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #363848;
+  }
+  
+  .pricingplan-title p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 19px;
+  }
+  
+  .pricingplan-groupcard {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+  }
+  .pricingplan-card {
+    width: 407px;
+    padding-top: 45px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 28px rgba(62, 53, 120, 0.07);
+    border-radius: 20px;
+    padding-bottom: 56px;
+  }
+  .pricingplan-card:hover {
+    box-shadow: 0px 19px 29px rgba(62, 53, 120, 0.14);
+  }
+  .pricingplan-card h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 26px;
+    text-align: center;
+    color: #363848;
+  }
+  
+  .pricingplan-card-money h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: #363848;
+    margin-top: 38px;
+  }
+  
+  .pricingplan-card-money p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #363848;
+  }
+  .pricingplan-card-desc {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 42px;
+    color: #363848;
+    text-align: center;
+    margin-left: 47px;
+    margin-top: 53px;
+  }
+  .pricingplan-card-desc li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+  .pricingplan-card-desc img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .learnmore-btn {
+    font-family: "Poppins", sans-serif;
+    width: 306px;
+    height: 60px;
+    background: #f7f5ff;
+    border-radius: 60px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5f4bdb;
+    margin-top: 53px;
+    cursor: pointer;
+  }
+  
+  .pricingplan-card-btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+ .learnmore-btn:active {
+    background: #5f4bdb;
+    color: #ffffff;
+  }

@@ -1,0 +1,66 @@
+.footer {
+    height: 579px;
+    padding: 0 150px;
+    background-color: #1f2131;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-infor p {
+    width: 427px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  
+  .footer-infor-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 314px;
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+  
+  .footer-infor-social .twitter {
+    width: 58px;
+    height: 58px;
+    background-color: #3cb5db;
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-infor-social img {
+    object-fit: contain;
+  }
+  
+  .footer-ziro h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  
+  .footer-ziro ul {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    list-style-type: none;
+    margin-top: 24px;
+  }
+  .footer-ziro li {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-ziro li img {
+    margin-right: 16px;
+  }

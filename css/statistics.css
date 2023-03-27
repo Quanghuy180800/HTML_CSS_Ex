@@ -1,0 +1,81 @@
+.statistics {
+    margin: 0 150px;
+    padding: 0 160px;
+    position: relative;
+    height: 315px;
+    background-color: #5f4bdb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .statistics h3 {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    color: #ffffff;
+    z-index: 1;
+  }
+  
+  .statistics p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-top: 19px;
+  }
+  
+  .statistics-dot-white {
+    position: absolute;
+    top: 257px;
+    left: 492px;
+  }
+  
+  .statistics-dot-gray {
+    position: absolute;
+    top: 194px;
+    right: 36.37px;
+  }
+  
+  .statistics .left {
+    position: absolute;
+    top: -143px;
+    left: -143px;
+    width: 286px;
+    height: 286px;
+    background: rgba(82, 65, 187, 0.33);
+  }
+  
+  .statistics .right {
+    position: absolute;
+    top: -135px;
+    right: 10px;
+    width: 271px;
+    height: 271px;
+    background: #6b58e0;
+  }
+  
+  .statistics .bottom {
+    position: absolute;
+    top: 245px;
+    left: 231px;
+    width: 329px;
+    height: 329px;
+    background: #5241bb;
+  }
+  
+  .statistics .middle {
+    position: absolute;
+    top: 68px;
+    left: 129px;
+    width: 62px;
+    height: 62px;
+    background: #6b58e0;
+  }
