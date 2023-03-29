@@ -1,7 +1,6 @@
 .testimonials {
-    padding: 0 150px;
-    position: relative;
-    height: 809px;
+    padding: 0 7.8%;
+    min-height: 809px;
     padding-top: 76px;
   }
   
@@ -33,17 +32,17 @@
   }
   .testimonials-content {
     display: flex;
-    flex-direction: row;
   }
   
   .testimonials-content-left {
-    width: 567px;
+    width: 35%;
+    position: relative;
   }
   
   .testimonials-shape {
     position: absolute;
-    top: 305px;
-    left: 286px;
+    top: 18%;
+    right: 11%;
     width: 369px;
     height: 369px;
     background: #c4c4c4;
@@ -52,28 +51,25 @@
   
   .testimonials-dots-big {
     position: absolute;
-    top: 545px;
-    left: 248px;
+    top: 72%;
+    right: 68%;
     width: 76.73px;
     height: 76.2px;
   }
   
   .testimonials-quote-marks {
     position: absolute;
-    top: 279px;
-    left: 286px;
-    width: 68px;
-    height: 53px;
+    top: 12%;
+    right: 65%;
   }
   
   .testimonials-content-right {
-    width: 903px;
+    width: 57%;
     margin-top: 114px;
   }
   
   .authurproflie {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
   
@@ -95,7 +91,6 @@
   }
   .authurproflie-favor {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 12px;
   }
@@ -114,7 +109,7 @@
   }
   
   .testimonials-content-right > p {
-    width: 917px;
+    width: 100%;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -125,12 +120,10 @@
   .testimonials-content-right-customer {
     margin-top: 64px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
   .testimonials-group-arrows {
     display: flex;
-    flex-direction: row;
     gap: 24px;
   }
   
@@ -157,8 +150,6 @@
   }
   .testimonials-group-customers {
     display: flex;
-    flex-direction: row;
-    position: relative;
   }
   .testimonials-customer {
     width: 57px;
@@ -181,24 +172,111 @@
     color: #ffffff;
   }
 
-  @media only screen and (max-width: 1620px) {
+  @media only screen and (max-width: 1200px) {
     .testimonials {
-      padding: 0 100px;
+      padding: 0 3%;
     }
 
     .testimonials-shape {
-      left: 186px;
+      top: 23%;
+      right: 8%;
+      width: 300px;
+      height: 300px;
+    }
+
+    .testimonials-dots-big img{
+      width: 65px;
+      height: 65px;
+    }
+    .testimonials-quote-marks { 
+      top: 20%;
+    right: 65%;
+    }
+    .testimonials-quote-marks img {
+      width: 48px;
+      height: 36px;
+    }
+
+    .testimonials-content-right > p {
+      font-size: 16px;
+      line-height: 24px;
     }
     
-    .testimonials-dots-big {
-      left: 148px;
-    }
     
-    .testimonials-quote-marks {
-      left: 186px;
-    }
   }
+  @media only screen and (max-width: 992px) {
+    .testimonials-title h3 {
+      font-size: 32px;
+    }
+    .testimonials-title p {
+      font-size: 16px;
+      width: 80%;
+    }
 
-  @media only screen and (max-width: 1450px){
 
+    .testimonials-content {
+      flex-direction: column;
+    }
+
+    .testimonials-content-right {
+      width: 90%;
+      margin-top: 50px;
+      margin-left: 30px;
+      margin-bottom: 70px;
+    }
+
+    .testimonials-content-left {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    
+
+    .testimonials-content-right-customer {
+      margin-top: 45px;
+    }
+    
+    .testimonials-shape {
+      position: static;
+      width: 250px;
+      height: 250px;
+    }
+    .testimonials-content-right > p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .testimonials-arrowsleft, .testimonials-arrowsright {
+      width: 40px;
+      height: 40px;
+    }
+
+    .testimonials-group-arrows img{
+      width: 15px;
+      height: 12px;
+    }
+    .testimonials-customer {
+      width: 47px;
+      height: 47px;
+    }
+    .testimonials-customer:last-child {
+     
+      font-weight: 600;
+      font-size: 12px;
+    }
+
+    .authurproflie-favor {
+      gap: 8px;
+    }
+    .authurproflie-favor img {
+      width: 16px;
+      height: 16px;
+    }
+    
+    .authurproflie-favor p {
+     
+      font-weight: 500;
+      font-size: 18px;
+    }
   }
