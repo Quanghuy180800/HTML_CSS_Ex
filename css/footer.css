@@ -1,26 +1,26 @@
 .footer {
     height: 579px;
-    padding: 150px 150px 0 150px;
+    padding: 7.8% 7.8% 0 7.8%;
     background-color: #1f2131;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 33% 15% 15% 15% 22%;
   }
   
   .footer-infor p {
-    width: 427px;
+    width: 80%;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
+    margin-top: 65px;
   }
   
   .footer-infor-social {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 314px;
-    margin-top: 32px;
+    width: 70%;
+    margin-top: 50px;
     margin-left: 24px;
   }
   
@@ -36,6 +36,7 @@
   
   .footer-infor-social img {
     object-fit: contain;
+
   }
   
   .footer-ziro h3 {
@@ -62,4 +63,75 @@
   }
   .footer-ziro li img {
     margin-right: 16px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .footer {
+      padding: 7.8% 5% 0 5%;
+    }
+    .footer-ziro ul {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .footer-infor p {
+  
+      font-size: 14px;
+      line-height: 20px;
+    
+    }
+    
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .footer {
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 70px;
+      justify-content: space-between;
+    }
+    .footer-infor {
+      width: 100%;
+      padding:0 40px;
+    }
+
+    .footer-infor p {
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+    .footer-infor-social {
+      display: flex;
+      justify-content: space-between;
+      width: 40%;
+      margin-top: 20px;
+      margin-left: 24px;
+      margin-bottom: 60px;
+    }
+
+    .footer-ziro h3 {
+      font-size: 16px;
+      line-height: 30px;
+      color: #ffffff;
+    }
+    
+    .footer-ziro ul {
+      font-size: 12px;
+      line-height: 24px;
+      color: #ffffff;
+      list-style-type: none;
+      margin-top: 24px;
+    }
+    .footer-ziro li {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .footer-ziro li img {
+      margin-right: 12px;
+      width: 12px;
+    }
+  
+  
   }

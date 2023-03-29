@@ -1,14 +1,14 @@
 .newsletter {
     height: 366px;
     background-color: #1f2131;
-    padding: 0 150px;
+    padding: 0 7.8%;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: 150px;
   }
   .newsletter h3 {
-    width: 789px;
+    width: 48%;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 44px;
@@ -17,18 +17,17 @@
   }
   
   .newsletter-box {
-    width: 546px;
+    width:  35%;
     height: 80px;
     border: 1px solid #363843;
     border-radius: 60px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
   
   .newsletter-input {
-    width: 330px;
+    width: 70%;
     background: transparent;
     border: none;
     outline: none;
@@ -37,12 +36,12 @@
     line-height: 25px;
     color: #72737c;
     font-family: "Open Sans", sans-serif;
-    padding-left: 37px;
+    padding:0 37px;
   }
   
   .newsletter-btn {
     margin: 10px;
-    width: 196.79px;
+    width: 45%;
     height: 60px;
     background: #fe8d4d;
     box-shadow: 0px 19px 29px rgba(62, 53, 120, 0.14);
@@ -53,4 +52,72 @@
     line-height: 27px;
     color: #ffffff;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .newsletter {
+      padding: 0 5%;
+    }
+
+    .newsletter-box {
+      width:  40%;
+      height: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .newsletter-box {
+      height: auto;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .newsletter-input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #363843;
+    border-radius: 60px;
+  }
+  
+  .newsletter-btn {
+    margin: 10px;
+    width: 45%;
+    height: 60px;
+    background: #fe8d4d;
+    box-shadow: 0px 19px 29px rgba(62, 53, 120, 0.14);
+    border-radius: 37px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  }
+
+  @media only screen and (max-width: 992px) {
+    .newsletter {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    
+      padding-bottom: 70px;
+    }
+
+    .newsletter h3 {
+      width: 90%;
+      margin-top: 70px;
+    }
+
+    .newsletter-box {
+      margin-top: 70px;
+      width:  80%;
+      height: auto;
+    }
+  
   }

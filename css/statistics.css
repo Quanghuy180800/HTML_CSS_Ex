@@ -1,11 +1,10 @@
 .statistics {
-    margin: 0 150px;
-    padding: 0 160px;
+    margin: 0 7.8%;
+    padding: 0 8.5%;
     position: relative;
     height: 315px;
     background-color: #5f4bdb;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
@@ -23,6 +22,7 @@
   }
   
   .statistics p {
+    position: relative;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -69,6 +69,7 @@
     width: 329px;
     height: 329px;
     background: #5241bb;
+    z-index: 0;
   }
   
   .statistics .middle {
@@ -79,3 +80,43 @@
     height: 62px;
     background: #6b58e0;
   }
+
+  @media only screen and (max-width:1400px) {
+    .statistics {
+      margin: 0 5%;
+      padding: 0 7%;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .statistics {
+    margin: 0 5%;
+    padding: 0 7%;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+}
+
+@media only screen and (max-width:992px) {
+  .statistics h3 {
+    font-weight: 500;
+    font-size: 48px;
+    color: #ffffff;
+    z-index: 1;
+  }
+  
+  .statistics p {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .statistics-dot-white {
+display: none;
+  }
+  
+}
+
+}

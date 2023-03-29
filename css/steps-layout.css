@@ -1,14 +1,14 @@
 .steps-layout {
-    padding: 0 150px;
-    position: relative;
+    padding: 0 7.8%;
     height: 851px;
     display: flex;
     align-items: center;
     background-color: #ffffff;
+    position: relative;
   }
   
   .steps-left-side {
-    width: 960px;
+    width: 50%;
   }
   
   .steps-left-side > p {
@@ -20,7 +20,7 @@
   }
   
   .steps-left-side > h3 {
-    width: 669px;
+    width: 80%;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 50px;
@@ -39,8 +39,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 23px;
-    margin-right: 29px;
+    margin-left: 4%;
+    margin-right: 5%;
   }
   
   .steps {
@@ -56,11 +56,11 @@
     font-size: 24px;
     line-height: 32px;
     color: #363848;
-    width: 434px;
+    width: 75%;
   }
   .step-one,
   .step-three {
-    width: 650px;
+    width: 81%;
     height: 119px;
     display: flex;
     align-items: center;
@@ -75,8 +75,8 @@
   }
   
   .step-two {
-    width: 650px;
-    height: 176px;
+    width: 80%;
+    padding-bottom: 26px;
     display: flex;
     background-color: #ffffff;
     border-radius: 20px;
@@ -92,6 +92,7 @@
     background-color: #e7e9ff;
     color: #2b3dc7;
     margin-top: 17px;
+    width: 13%;
   }
   .step-three .number-box {
     background-color: #e9ffef;
@@ -100,7 +101,7 @@
   
   .step-two p {
     color: #909090;
-    width: 478px;
+    width: 90%;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -113,6 +114,13 @@
     flex-direction: column;
     margin-top: 26px;
     gap: 14px;
+    width: 85%;
+  }
+
+  .steps-right-side {
+    width: 50%;
+    height: 100%;
+    position: relative;
   }
   
   .image-shape {
@@ -120,10 +128,10 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 131px;
-    right: 205px;
-    width: 753px;
-    height: 660px;
+    top: 15.5%;
+    left: 1%;
+    width: 740px;
+    height: 648px;
     background: #c4c4c4;
     border-radius: 40px;
   }
@@ -135,90 +143,158 @@
   
   .chart img {
     position: absolute;
-    top: 227px;
-    right: 110px;
+    top: 26.6%;
+    left: 80%;
   }
   
   .wave img {
     position: absolute;
-    top: 653px;
-    right: 915px;
+    top: 76.7%;
+    left: -4%
   }
   
   .dots-small {
     position: absolute;
-    top: 74px;
-    right: 755px;
+    top: 8.6%;
+    left: 15%;
   }
 
-  @media only screen and (max-width: 1620px) {
-    
-    .steps-layout {
-      padding: 0 100px;
+  @media only screen and (max-width:1600px) { 
+    .steps-left-side {
+      width: 60%;
     }
     .image-shape {
-      top: 171px;
-      right: 105px;
-      width: 603px;
-      height: 510px;
+      width: 653px;
+      height: 560px;
     }
-
-    .wave img{
-      right: 615px;
-    }
-
   }
+    @media only screen and (max-width:1400px) { 
+      .steps-layout {
+        padding: 0 5%;
+      }
+      .steps-left-side {
+        width: 75%;
+      }.steps-left-side {
+        width: 75%;
+      }
 
-  @media only screen and (max-width: 1450px) {
-    .steps-layout {
-      padding: 0 70px;
-    }
-    .image-shape {
-      top: 171px;
-      right: 85px;
-      width: 550px;
-      height: 460px;
-    }
-  
-    .chart img {
-      top: 227px;
-      right: 50px;
-      width: 150px;
-      height: 150px;
-    }
+      .image-shape {
+        left: 1%;
+        top: 25%;
+        width: 500px;
+        height: 460px;
+      }
+      .chart img {
+        top: 35%;
+        width: 150px;
+        height: 150px;
+      }
 
-    .dots-small {
-      right: 555px;
-    }
+      .wave img {
+        left: 50%;
+        top: 60.7%;
+      }
+      .dots-small {
 
-    .step-one,
-    .step-three {
-      width: 550px;
-      height: 100px;
-     
-    }
+        top: 18.6%;
 
-    .step-two {
-      width: 550px;
-    }
+      }
+      .steps {
+        gap: 28px;
+        margin-top: 48px;
+      }
 
-    .step-two p {
       
-      width: 378px;
-     
-    }
-    
-
-    .number-box {
-      width: 64px;
-      height: 64px;
     }
 
+    @media only screen and (max-width:1200px) { 
+      .steps-layout {
+        padding: 0 3%;
+      }
+      
+      .image-shape {
+        top: 30%;
+        width: 380px;
+        height: 340px;
+      }
 
-  
-  
+      .chart img {
+        top: 18.6%;
+        left: 60%;
+      }
+      
+      .wave img {
+        top: 70%;
+        left: 2%
+      }
+      
+      .dots-small {
+        position: absolute;
+        top: 23%;
+        left: 8%;
+      }
+
+      .steps-left-side > h3 {
+        font-size: 46px;
+      }
+
+    }
+
+    @media only screen and (max-width:992px) { 
+
+      .steps-layout {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+      }
+
+      .steps-left-side {
+        width: 100%;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .steps-right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        
+      }
+
+      .step-two .number-box{
+        width: 84px;
+        height: 84px;
     
+      }
+      .steps {
+        align-items: center;
+      }
 
+      .image-shape {
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 70px;
+      }
+      .wave, .chart, .dots-small {
+        display: none;
+      } 
 
-
+        
+  .steps-left-side > h3 {
+    font-size: 36px;
   }
+
+  
+
+
+    }
+ 
+    
+  

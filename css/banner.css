@@ -1,18 +1,18 @@
 .mainbanner {
     background-color: #f8f9fd;
-    padding: 0 150px;
+    padding: 156px 7.8% 0 7.8%;
     height: 813px;
     display: flex;
-    align-items: center;
-    position: relative;
+    padding-top: 156px;
+    
   }
   
   .mainbanner-left {
-    width: 960px;
+    width: 50%;
   }
   
   .mainbanner-left h2 {
-    width: 810px;
+    width: 90%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -27,7 +27,7 @@
   }
   
   .mainbanner-left p {
-    width: 531px;
+    width: 57%;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -36,11 +36,12 @@
   }
   .mainbanner-left-button {
     display: flex;
-    width: 412px;
+    width: 50%;
     align-items: center;
+    gap: 15px;
     justify-content: space-between;
-    margin-top: 60px;
-    margin-bottom: 86px;
+    margin-top: 7%;
+    margin-bottom: 10%;
   }
   .mainbanner-left-button .discover {
     width: 197px;
@@ -81,19 +82,22 @@
     text-decoration: none;
     color: #363848;
   }
-  
+  .mainbanner-right {
+    width: 50%;
+    position: relative;
+  }
   .mainbanner-right .circle-shape {
     position: absolute;
-    top: 194px;
-    right: 269px;
+    top: 38px;
+    left: 12%;
     width: 575px;
     height: 575px;
     background-color: #b3c3ff;
   }
   .big-dot-shape {
     position: absolute;
-    top: 582px;
-    right: 280px;
+    top: 426px;
+    left: 75%;
     width: 54px;
     height: 54px;
     border-radius: 50%;
@@ -101,8 +105,8 @@
   }
   .small-dot-shape {
     position: absolute;
-    top: 184px;
-    right: 327px;
+    top: 28px;
+    left: 70%;
     width: 34px;
     height: 34px;
     border-radius: 50%;
@@ -111,33 +115,36 @@
   
   .bars {
     position: absolute;
-    top: 296px;
-    right: 157px;
+    top: 140px;
+    left: 65%;
     z-index: 1;
+  }
+
+  .bars img {
+    width: 100%;
   }
   
   .emoji {
     position: absolute;
-    top: 87px;
-    right: 422px;
-    width: 82px;
-    height: 92px;
+    top: -69px;
+    left: 50%;
   }
   
   .big-dots {
     position: absolute;
-    top: 195px;
-    right: 890px;
+    top: 39px;
+    left: 34px;
     width: 36px;
     height: 66px;
   }
   
   .small-dots {
     position: absolute;
-    top: 636px;
-    right: 206px;
+    top: 480px;
+    left: 85%;
     width: 46.5px;
     height: 46.2px;
+    z-index: 1;
   }
   
   .card-profile {
@@ -145,10 +152,10 @@
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 550px;
-    right: 696px;
+    top: 60%;
+    left: -20%;
     z-index: 2;
-    width: 416px;
+    width: 55%;
     height: 154px;
     background-color: rgba(255, 255, 255, 0.74);
     border-radius: 17px;
@@ -185,72 +192,101 @@
   
     color: #000000;
   }
-  .card-profile-infor-favor {
-    height: 24px;
+  .card-profile-infor-favor img{
+    width: 15%;
   }
   
   .card-profile-btn {
-    width: 110px;
+    width: 25%;
     display: flex;
     justify-content: space-around;
   }
 
-  @media only screen and (max-width: 1620px) {
+
+  @media only screen and (max-width: 1400px) {
+
     .mainbanner {
       width: 100%;
-      padding: 0 100px;
+      padding: 156px 5% 0 5%;
     }
-    .big-dots {
-      right: 800px;
+    .mainbanner-left h2 {
+      font-size: 56px;
+    line-height: 72px;
     }
+    .mainbanner-right .circle-shape {
+      width: 475px;
+      height: 475px;
+    }
+
+    .bars img {
+      width: 80%;
+    }
+
     .card-profile {
-      right: 450px;
+      width: 60%;
+    height: 20%;
+    }
+    .mainbanner-left-button {
+      width: 70%;
     }
   }
 
-  @media only screen and (max-width: 1450px) {
-    .mainbanner {
-      width: 100%;
-      padding: 0 70px;
-    }
-    .card-profile {
-      width: 380px;
-      height: 130px;
-    }
+  @media only screen and (max-width: 1200px) {
     .mainbanner-left h2 {
-      width: 610px;
       font-size: 48px;
+    line-height: 60px;
+    }
+    .card-profile-avt {
+     
+      margin-left: 5px;
+      margin-right: 5px;
     }
 
     .mainbanner-right .circle-shape {
-    
-      top: 174px;
-      right: 169px;
-      width: 475px;
-      height: 475px;
+      width: 400px;
+      height: 400px;
+    }
    
+
+
+    @media only screen and (max-width: 992px) {
+      .card-profile {
+        display: none;
+      }
+
+      .mainbanner {
+        position: relative;
+      }
+
+      .mainbanner-left {
+        position: relative;
+        width: 100%;
+        z-index: 2;
+      }
+
+      .mainbanner-right {
+        position: absolute;
+        filter: blur(5px);
+        z-index: 1;
+        width: 90%;
+      }
+      .mainbanner-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .mainbanner-left p {
+        width: 85%;
+      }
+      .emoji {
+        top: -100px;
+        left: 60%;
     }
-    .big-dot-shape {
-      right: 280px;
-    }
-    .bars {
-      right: 87px;
+    .mainbanner-right .circle-shape {
+      
+      background-color: #b1c1ff;
     }
 
-    .bars img{
-
-      width: 150px;
-      height: 150px;
-    }
-    
-    .emoji {
-      right: 322px;
-      z-index: 1;
-
-    }
-    
-    .big-dots {
-      right: 600px;
-    }
-    
-  }
+}}
